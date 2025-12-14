@@ -9,7 +9,7 @@ int main(){
     char name[30];
 
     printf("Enter your name:");
-    scanf("%s",name);
+    fgets(name,sizeof(name),stdin); // used to take inputs with spaces
 
     printf("Enter your age:");
     scanf("%d",&age); // address-of-operator(pointer)
