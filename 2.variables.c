@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Variable =>  is a name given to a part of computer memeory where we can store data.
+
 int main(){
 
     int age = 20; // int data type
@@ -16,6 +18,6 @@ int main(){
     printf("Your currency sign is %c\n",currency);
     printf("Welcome back %s to C programming language , a mother of other programming languages!!\n",name);
     printf("Nyaganya is Programmer: %d\n",isProgrammer);
-    printf("%zu",sizeof(currency)); // output the size of memory this variable takes in computer memory
+    printf("%zu\n",sizeof(currency)); // output the size of memory this variable takes in computer memory
 
 }
